@@ -1,8 +1,8 @@
 # Unnützes Wissen für Variety
 
-Plugin für [Variety](https://github.com/varietywalls/variety), welches unnütze Fakten anzeigt.
+Ein Plugin für [Variety](https://github.com/varietywalls/variety), welches unnütze Fakten anzeigt.
 
-Die unnützen Fakten kommen von (https://uselessfacts.jsph.pl/).
+Die unnützen Fakten stammen von (https://uselessfacts.jsph.pl/).
 
 Getestet mit Variety 0.8.9
 
@@ -14,7 +14,8 @@ Getestet mit Variety 0.8.9
 
 ## Verwendung
 
-Um das Plugin zu aktivieren, öffne das **Variety Preferences** fenster. Navigiere zum **Quotes** tab. Wähle im Abschnitt **Sources and filtering** die Checkbox für **Unnützes Wissen** an.
+Um das Plugin zu aktivieren, öffne das **Variety Preferences** Fenster. Navigiere zum **Quotes** tab. Wähle im Abschnitt **Sources and filtering** die Checkbox für **Unnützes Wissen** an.
 
 ![variety-preferences](assets/variety-preferences.png)
+
 Dieses Plugin unterstützt keine Filterung nach Autoren.
