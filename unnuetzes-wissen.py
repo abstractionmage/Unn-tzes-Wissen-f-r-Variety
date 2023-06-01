@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- Mode: Python; coding: utf-8; indent-tabs-mode: nil; tab-width: 4 -*-
 """
-Variety quotes plugin sourcing useless facts from https://uselessfacts.jsph.pl/
+Variety quotes plugin sourcing useless facts in German from https://uselessfacts.jsph.pl/
 @author: p-ja
 """
 
@@ -15,10 +15,11 @@ from variety.Util import cache
 logger = logging.getLogger("variety")
 
 default_fact = {
-    "text": "The number pi approximately equals 3.14159",
-    "source": None,
-    "source_url": None,
-    "permalink": None
+    "text": "Der Mensch kann besser Entscheidungen treffen, wenn er dringend pinkeln muss.",
+    "source": "NEON",
+    "source_url": "http://www.neon.de/artikel/kaufen/produkte/der-mensch-kann-besser-entscheidungen-treffen-wenn-er-dringend-pinkeln-muss/994779",
+    "language": "de",
+    "permalink": "https://uselessfacts.jsph.pl/api/v2/facts/b4ecb56c53a80be8b504604e1f0bb925"
 }
 
 class UselessFactsSource(IQuoteSource):
@@ -29,8 +30,8 @@ class UselessFactsSource(IQuoteSource):
     @classmethod
     def get_info(cls):
         return {
-            "name": "Useless facts",
-            "description": _("Useless but true facts"),
+            "name": "Unnützes Wissen",
+            "description": _("Unnütze aber wahre Fakten"),
             "version": "0.1",
             "author": "p-ja"
         }
@@ -87,5 +88,5 @@ class UselessFactsSource(IQuoteSource):
     @cache(ttl_seconds=30, debug=True)
     def _fetch_fact(self):
         logger.debug("Fetching useless fact...")
-        URL = "https://uselessfacts.jsph.pl/random.json?language=en"
+        URL = "https://uselessfacts.jsph.pl/random.json?language=de"
         return Util.fetch_json(URL)
