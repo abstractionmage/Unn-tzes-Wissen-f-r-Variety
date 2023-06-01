@@ -8,7 +8,7 @@ Getestet mit Variety 0.8.9
 
 ## Installation
 
-1. Lade die Datei`unnuetzes-wissen.py` herunter
+1. Lade die Datei `unnuetzes-wissen.py` herunter
 2. Verschiebe sie in den Ordner `~/.config/variety/plugins`
 3. Starte Variety neu
 
