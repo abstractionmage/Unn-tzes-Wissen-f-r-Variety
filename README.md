@@ -16,6 +16,5 @@ Getestet mit Variety 0.8.9
 
 Um das Plugin zu aktivieren, öffne das **Variety Preferences** fenster. Navigiere zum **Quotes** tab. Wähle im Abschnitt **Sources and filtering** die Checkbox für **Unnützes Wissen** an.
 
-![variety-preferences](https://user-images.githubusercontent.com/15163932/185762956-f8c21065-9738-4dda-96ed-2236fb900160.png)
-
+![variety-preferences](assets/variety-preferences.png)
 Dieses Plugin unterstützt keine Filterung nach Autoren.
