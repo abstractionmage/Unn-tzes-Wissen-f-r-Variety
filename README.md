@@ -1,29 +1,21 @@
-# useless-facts-variety
+# Unnützes Wissen für Variety
 
-Plugin for [Variety](https://github.com/varietywalls/variety) sourcing useless facts as quotes.
+Plugin für [Variety](https://github.com/varietywalls/variety), welches unnütze Fakten anzeigt.
 
-The useless facts come from (https://uselessfacts.jsph.pl/).
+Die unnützen Fakten kommen von (https://uselessfacts.jsph.pl/).
 
-Tested with Variety 0.8.9
+Getestet mit Variety 0.8.9
 
 ## Installation
 
-1. Download `useless-facts.py`
-2. Copy the file to `~/.config/variety/plugins`
-3. Restart Variety
+1. `useless-facts.py` herunterladen
+2. Die Datei in den Ordner `~/.config/variety/plugins` verschieben
+3. Variety neustarten
 
-## Usage
+## Verwendung
 
-To enable the plugin open **Variety Preferences** window. Go to **Quotes** tab. In the **Sources and filtering** section check **Useless quotes** checkbox.
+Um das Plugin zu aktivieren, öffne das **Variety Preferences** fenster. Navigiere zum **Quotes** tab. Wähle im Abschnitt **Sources and filtering** die Checkbox für **Unnützes Wissen** an.
 
 ![variety-preferences](https://user-images.githubusercontent.com/15163932/185762956-f8c21065-9738-4dda-96ed-2236fb900160.png)
 
-If you can't find the **Quotes** tab, try to update your Variety installation.
-
-The plugin doesn't support filtering by tags or authors.
-
-## See also
-
-[Official Variety website](https://peterlevi.com/variety/)
-
-Check out also my other plugin for Variety: [Programming jokes](https://github.com/p-ja/programming-jokes-variety)
+Dieses Plugin unterstützt keine Filterung nach Autoren.
